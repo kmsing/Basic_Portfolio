@@ -1,24 +1,132 @@
 /*
-
 Each of these CSS elements is associated with an HTML Element, Class, or ID.
 Flip between this CSS file and the HTML to see how things line up.
 Experiment with deleting lines of code from the CSS to see how it 
 affects the webpage when you refresh in the browser.
-
 */
 
-header{
-  color: black;
+#header{
+  background-color: #FFFFFF;
+  /*padding-left: 20px;*/
+  border-bottom:solid 2px #888888;
+  width: 100%;
+  position:relative;
+  left: 0;
 }
 
-footer{
-  color: black;
+body{
+  background-image: url("paper.gif");
+    background-color: #cccccc;
 }
 
-div.aboutme{
-  width:60px;
+footer {
+  position:absolute;
+  bottom: 0px;
+  background-color: #666666;
+  size: 12;
+  font-color: #FFFFFF;
+  border-top:solid 4px #4aaaa5;
+  width: 100%;
+  height: 50px;
+  left: 0;
 }
 
+img{
+  border:5;
+  width:40px;
+  height: 40px;
+}
+
+p{
+   text-transform: 
+}
+
+nav{
+  width: 75px;
+  float: right;
+  color: #FFFFFF;
+  border-right:solid;
+}
+
+li{
+  display: inline;
+}
+
+#menu{
+  position: relative;
+  top: 0px;
+  left:794px;
+  width: 200px;
+  height: 21px;
+  border-color:#FFFFFF;
+}
+
+#yourname{
+  background-color: #4aaaa5;
+  width: 250px;
+  color: #FFFFFF;
+  display: inline-block;
+  margin-left: 25px;
+  font-size: 12px;
+  padding-left: 35px;
+  position:relative; 
+  top: 21px;
+} 
+
+#aboutmetag{
+  border-bottom:solid 1px #666666;
+  margin-left:15px;
+  margin-right:15px;
+  color:#4aaaa5;
+
+}
+
+#aboutme{
+  color: #666666;
+  padding: 175;
+  width: 50%;
+  float:left;
+  clear: left;
+  position: relative;
+  padding-top:2px;
+  border:solid 1px;
+  border-color:#666666;
+  top: 25px;
+}
+
+#connect{
+  width: 27%;
+  float:right;
+  clear:right; 
+  position:relative;
+  border:solid 1px;
+  border-color:#666666;
+  top: 25px;
+
+}
+
+#headshot{
+  width:145px
+  top:25px
+  bottom:25px;
+}
+
+#connecttag{
+  border-bottom:solid 1px #666666;
+  margin-left:3px;
+  margin-right:3px;
+  padding-top:2px;
+  color:#4aaaa5;
+
+}
+
+#headshot{
+  width: 25px;
+  margin:auto;
+}
+
+/*{
+  border-style: solid;} */
 
 
 
